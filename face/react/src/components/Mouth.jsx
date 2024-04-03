@@ -1,7 +1,7 @@
 import React from "react";
 import { arc } from "d3";
 
-const Mouth = ({mouthRadius, mouthWidth}) => {
+const Mouth = ({ mouthRadius, mouthWidth }) => {
   const mouthArc = arc()
     .innerRadius(mouthRadius)
     .outerRadius(mouthRadius + mouthWidth)
